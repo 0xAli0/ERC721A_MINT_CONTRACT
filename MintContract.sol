@@ -5,7 +5,7 @@ import "./ERC721A.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
-contract MetaVirtualCity is ERC721A, Ownable{
+contract MintContract is ERC721A, Ownable{
     using Strings for uint256;
 
     uint256 public constant MAX_SUPPLY = 6665;
