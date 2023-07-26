@@ -30,7 +30,7 @@ contract MintContract is ERC721A, Ownable{
     mapping(address => uint256) public totalPublicMint;
     mapping(address => uint256) public totalWhitelistMint;
 
-    constructor() ERC721A("Meta Virtual City", "MVC"){
+    constructor() ERC721A("ERC721A Mint Contract", "MC"){
 
     }
 
